@@ -258,7 +258,7 @@ footer{
     .menu { 
         display:none;
         position: absolute;
-        background: var(--color3); 
+        background: var(--usafa-blue); 
         right: 0;
         left: 0;
         text-align: center;
@@ -266,7 +266,7 @@ footer{
     }
     .menu li:hover {
         display: inline-block;
-        background-color:#ddd;
+        background-color: var(--sapphire-blue);
         width: 100%;
         border-radius: 0;
     }
@@ -279,5 +279,45 @@ footer{
     .hamburger {
         display: block;
         margin: 10px;
+        color: var(--beige);
     }
-}    
+    .img-palabras{
+        width: 80%;
+    }
+    .contain-footer{
+        width: 90%;
+    }
+}   
+
+@media (max-width: 480px){
+    .container{
+        padding: 10px 0;
+    }
+    .card-servicios{
+        width: 70%;
+    }
+    .ft-todoresuelto{
+        width: 90%;
+    }
+    .btn-enviar{
+        width: 50%;
+    }
+    .title{
+        font-size: 20px;
+    }
+}
+@media (max-width: 320px){
+    .title{
+        font-size: 18px;
+        background-position: bottom;
+    }
+    .img-palabras{
+        width: 100%;
+    }
+    .card-servicios{
+        width: 90%;
+    }
+    .btn-enviar{
+        width: 80%;
+    }
+}
